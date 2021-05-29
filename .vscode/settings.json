@@ -1,3 +1,6 @@
 {
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "python.analysis.extraPaths": [
+        "/home/barty/.local/share/virtualenvs/AumBot-_Uc7WCyi/lib/python3.8/site-packages",
+    ]
 }
