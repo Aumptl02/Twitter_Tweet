@@ -56,8 +56,9 @@ class TwitterBot:
         bot.find_element_by_xpath("//div[@data-testid='tweetButton']").click()
 
     def like_tweet(self, post_link):
+        time.sleep(3)
         self.bot.get(post_link)
-        time.sleep(10)
+        time.sleep(5)
         like_button = self.bot.find_element_by_xpath(
             "/html/body/div/div/div/div[2]/main/div/div/div/div[1]/div/div[2]/div/section/div/div/div[1]/div/div/article/div/div/div/div[3]/div[4]/div[3]/div/div/div/div")
         time.sleep(2)
